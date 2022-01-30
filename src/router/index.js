@@ -15,7 +15,7 @@ const routes = [
     path: '/my-profile',
     name: 'MyProfile',
     meta: {auth: true},
-    component: () => import(/* webpackChunkName: "about" */ '../views/MyProfile.vue')
+    component: () => import('../views/MyProfile.vue')
   },
   {
     path: '*',
